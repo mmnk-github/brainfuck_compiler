@@ -47,9 +47,9 @@ for inst in bfcode:
         ccode += "(*ptr)++;\n"
     elif inst == '-':
         ccode += "(*ptr)--;\n"
-    elif inst == '.':
-        ccode += "*ptr = getchar();\n"
     elif inst == ',':
+        ccode += "*ptr = getchar();\n"
+    elif inst == '.':
         ccode += "putchar(*ptr);\n"
     elif inst == '[':
         ccode += "while(*ptr){\n"
