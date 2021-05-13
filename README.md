@@ -1,5 +1,5 @@
 # brainfuck_compiler
-brainfuckをC言語に変換してCコンパイラに投げるだけのコンパイラもどきです。Python3とgccコンパイラが動くなら動きます。
+brainfuckをC言語に変換してCコンパイラに投げるだけのコンパイラもどきです。Python3とgccコンパイラが動くなら動きます。本体は`compiler.py`です。
 
 # How to use
 1. brainfuckのコードが書かれたファイルを用意します。
